@@ -367,7 +367,7 @@
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
-                android:id="@+id/fonthr"
+                android:id="@+id/hsixline"
                 android:layout_width="match_parent"
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
@@ -375,24 +375,24 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="form tag"
+                android:text="Header tag"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
-                android:id="@+id/formtag"
+                android:id="@+id/headertag"
                 android:layout_marginTop="30dp"/>
 
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/formbutt"
+                android:id="@+id/headerbutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
-                android:id="@+id/formhr"
+                android:id="@+id/headerhr"
                 android:layout_width="match_parent"
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
@@ -400,32 +400,35 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="headingtag"
+                android:text="Hgroup tag"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
-                android:id="@+id/headingtag"
+                android:id="@+id/hgrouptag"
                 android:layout_marginTop="30dp"/>
 
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/headingbutt"
+                android:id="@+id/hgroupbutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
-                android:id="@+id/hr13"
+                android:id="@+id/hgrouphr"
                 android:layout_width="match_parent"
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
                 android:layout_height="5dp"></TableRow>
+
+            <!-- Nav tag   -->
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="head tag"
+                android:text="Nav tag"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
@@ -435,22 +438,273 @@
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/headbutts"
+                android:id="@+id/navbutts"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
-                android:id="@+id/headhr"
+                android:id="@+id/navhr"
                 android:layout_width="match_parent"
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
                 android:layout_height="5dp"></TableRow>
+
+            <!-- section tag  -->
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="horizontal rule tag"
+                android:text="Section tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/sectiontag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/sectionbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/sectionhr"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- Blockquote tag  -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blockquote tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/blockquotetag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/blockquotebutts"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/blockquotehr"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- break tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Break tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/breaktag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/breakbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/breakhr"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+            <!--dd tag -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DD tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/ddtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/ddbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/ddhr"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- div tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Div tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/divtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/divbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/divhr"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!--Dl tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dl tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/dltag1"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/dlbutt1"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/dlhr"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- dt tag -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dt tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/dttag2"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/dtbutt2"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/dthr"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- figcaption tag  -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Figcaption tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/figcaptiontag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/figcaptionbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/figcaphr"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- figure tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Figure tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/inputtag4"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/figurebutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/figurehr"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- hr tag   -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hr tag"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
@@ -467,90 +721,1391 @@
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
-                android:id="@+id/hrhr"
+                android:id="@+id/hrline"
                 android:layout_width="match_parent"
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
                 android:layout_height="5dp"></TableRow>
+
+            <!-- li tag   -->
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="html tag"
+                android:text="Li tag"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
-                android:id="@+id/htmltag"
+                android:id="@+id/litag"
                 android:layout_marginTop="30dp"/>
 
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/htmlbutts"
+                android:id="@+id/libutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
-                android:id="@+id/htmlhr"
+                android:id="@+id/lihr"
                 android:layout_width="match_parent"
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
                 android:layout_height="5dp"></TableRow>
+
+            <!-- main tag  -->
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="italic tag"
+                android:text="Main tag"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
-                android:id="@+id/italictag"
+                android:id="@+id/maintag"
                 android:layout_marginTop="30dp"/>
 
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/italicbutt"
+                android:id="@+id/mainbutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
-                android:id="@+id/italichr"
+                android:id="@+id/mainhr"
                 android:layout_width="match_parent"
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
                 android:layout_height="5dp"></TableRow>
+
+                  <!-- ol tag   -->
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="image tag"
+                android:text="Ol tag"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
-                android:id="@+id/imagetag"
+                android:id="@+id/oltag"
                 android:layout_marginTop="30dp"/>
 
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/imagebutt"
+                android:id="@+id/olbutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
-                android:id="@+id/imagehr"
+                android:id="@+id/olline"
                 android:layout_width="match_parent"
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
                 android:layout_height="5dp"></TableRow>
+
+            <!-- p tag  -->
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="input field tag"
+                android:text="P tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/ptag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/pbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/pline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- pre tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pre tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/pretag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/prebutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/preline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+
+            <!-- uc tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Main tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/uctag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/ucbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/ucline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- a tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Main tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/atag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/abutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/aline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- abbr tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Main tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/abbrtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/abbrbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/abbrline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- b tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/btag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/bbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/bline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- bdi tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bdi tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/bditag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/bdibutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/bdiline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- bdo tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bdo tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/bdotag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/bdobutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/bdoline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- cite tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cite tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/citetag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/citebutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/citeline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- code tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Code tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/codetag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/codebutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/codeline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- del tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Del tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Deltag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/delbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/delline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- dfn tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dfn tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Dfntag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/dfnbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/dfnline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- em tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Em tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/emtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/embutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/emline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- i tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/itag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/ibutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/iline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- ins tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ins tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/instag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/insbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/insline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- kbd tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kbd tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/kbdtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/kbdbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/kbdline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- mark tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mark tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/marktag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/markbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/markline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- q tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Qtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/qbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/qline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- rp tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/rptag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/rpbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/rpline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- rt tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rt tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/rttag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/rtbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/rtline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- ruby tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ruby tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/rubytag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/rubybutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/rubyline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- S tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Stag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/sbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/sline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- Samp tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Samp tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Samptag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/sampbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/Sampline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- Small tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Small tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Smalltag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/smallbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/Smallline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- Span tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Span tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Spantag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/spanbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/Spanline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- Strong tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Strong tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Strongtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/strongbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/Strongline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- Sub tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sub tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Subtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/subbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/Subline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- Sup tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sup tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Suptag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/supbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/Supline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- time tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Timetag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/Timebutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/Timeline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- var tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Var tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/vartag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/varbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/varline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- wbr tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wbr tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/wbrtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/wbrbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/wbrline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- caption tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Captiontag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/captiontag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/captionbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/captionline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- Col tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Col tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Coltag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/colbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/colline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- colgroup tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ColGroup tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/cgrouptag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/cgroupbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/cgroupline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- table tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Table tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Tabletag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/tablebutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/tableline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- tbody tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tbody tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/tbodytag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/tbodybutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/tbodyline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- td tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Td tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/tdtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/tdbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/tdline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- tfoot tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tfoot tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/tfoottag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/tfootbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/tfootline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- th tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Th tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/thtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/thbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/thline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- thead tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thead tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/theadtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/theadbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/theadline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- tr tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tr tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/trtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/trbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/trline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+            android:layout_height="5dp"></TableRow>
+
+            <!-- button tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Buttontag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/Buttonbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/buttonline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- data tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/datatag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/databutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/dataline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- datalist tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Datalist tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/datalisttag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/datalistbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/datalistline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- fieldlist tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FieldList tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/fieldlisttag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/fieldlistbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/fieldlistline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- form tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Form tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/formtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/formbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/formline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- input  tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Input tags"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
@@ -567,190 +2122,752 @@
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
-                android:id="@+id/inputhr"
+                android:id="@+id/inputline"
                 android:layout_width="match_parent"
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
                 android:layout_height="5dp"></TableRow>
+
+
+            <!-- label tag  -->
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="input field tag"
+                android:text="Label tag"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
-                android:id="@+id/inputtag1"
+                android:id="@+id/Labeltag"
                 android:layout_marginTop="30dp"/>
 
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/inputbutt1"
+                android:id="@+id/Labelbutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
-                android:id="@+id/inputhr1"
+                android:id="@+id/Labelline"
                 android:layout_width="match_parent"
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
                 android:layout_height="5dp"></TableRow>
+
+            <!-- legend tag  -->
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="input field tag"
+                android:text="Legend tag"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
-                android:id="@+id/inputtag2"
+                android:id="@+id/legendtag"
                 android:layout_marginTop="30dp"/>
 
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/inputbutt2"
+                android:id="@+id/legendbutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
-                android:id="@+id/inputhr2"
+                android:id="@+id/legendline"
                 android:layout_width="match_parent"
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
                 android:layout_height="5dp"></TableRow>
+
+            <!-- meter tag  -->
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="input field tag"
+                android:text="Meter tag"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
-                android:id="@+id/inputtag3"
+                android:id="@+id/metertag"
                 android:layout_marginTop="30dp"/>
 
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/inputbutt3"
+                android:id="@+id/meterbutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
-                android:id="@+id/inputhr3"
+                android:id="@+id/meterline"
                 android:layout_width="match_parent"
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
                 android:layout_height="5dp"></TableRow>
+
+            <!-- optgroup tag  -->
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="input field tag"
+                android:text="OptGroup tag"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
-                android:id="@+id/inputtag4"
+                android:id="@+id/optgrouptag"
                 android:layout_marginTop="30dp"/>
 
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/inputbutt4"
+                android:id="@+id/optgroupbutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
-                android:id="@+id/inputhr4"
+                android:id="@+id/optgroupline"
                 android:layout_width="match_parent"
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
                 android:layout_height="5dp"></TableRow>
+
+            <!-- option tag  -->
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="input field tag"
+                android:text="Option tag"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
-                android:id="@+id/inputtag5"
+                android:id="@+id/optiontag"
                 android:layout_marginTop="30dp"/>
 
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/inputbutt5"
+                android:id="@+id/optionbutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
-                android:id="@+id/inputhr5"
+                android:id="@+id/optionline"
                 android:layout_width="match_parent"
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
                 android:layout_height="5dp"></TableRow>
+
+            <!-- output tag  -->
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="input field tag"
+                android:text="Output tag"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
-                android:id="@+id/inputtag6"
+                android:id="@+id/outputtag"
                 android:layout_marginTop="30dp"/>
 
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/inputbutt6"
+                android:id="@+id/outputbutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
-                android:id="@+id/inputhr6"
+                android:id="@+id/outputline"
                 android:layout_width="match_parent"
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
                 android:layout_height="5dp"></TableRow>
+
+            <!-- progress tag  -->
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="input field tag"
+                android:text="Pregress tag"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
-                android:id="@+id/inputtag7"
+                android:id="@+id/pregresstag"
                 android:layout_marginTop="30dp"/>
 
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/inputbutt7"
+                android:id="@+id/pregressbutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
-                android:id="@+id/inputhr7"
+                android:id="@+id/pregressline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- select tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/selecttag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/selectbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/selectline"
                 android:layout_width="match_parent"
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
                 android:layout_height="5dp"></TableRow>
 
 
+            <!-- textarea tag  -->
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="textarea tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/textareatag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/textareabutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/textarealine"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+
+            <!-- embed tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Embed tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/embedtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/embedbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/embedline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- iframe tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iframe tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Samptag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/iframebutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/iframeline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- img tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Img tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/imgtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/imgbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/imgline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- object tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Object tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/objecttag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/objectbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/objectline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- param tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="param tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/paramtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/parambutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/paramline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- source tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Source tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/sourcetag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/sourcebutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/sourceline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- area tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Area tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Areatag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/areabutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/Arealine"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- audio tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Audio tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/audiotag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/audiobutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/audioline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+
+            <!-- map tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Map tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Maptag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/mapbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/mapline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+
+            <!-- track tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="track tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Samptag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/trackbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/trackline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- video tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="video tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/videotag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/videobutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/videoline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+
+            <!-- details tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/detailtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/detailbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/detailline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+
+            <!-- dialog tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dialog tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/dialogtag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/dialogbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/dialogline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+
+            <!-- menu tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menu tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/menutag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/menubutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/menuline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+
+            <!-- summary tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Summary tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/Summarytag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/Summarybutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/Summaryline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+            <!-- canvas tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Canvas tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/canvastag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/canvasbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/canvasline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
+
+
+            <!-- noscript tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NoScript tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/noscripttag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/noscriptbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/noscriptline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
         </LinearLayout>
+
+
 
     </ScrollView>
 </RelativeLayout>

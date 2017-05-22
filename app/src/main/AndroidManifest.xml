@@ -68,6 +68,150 @@
             android:name=".Hsix_Activity"
             android:label="HTML TAGS">
         </activity>
+        <activity
+            android:name=".Header_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Hgroup_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Nav_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Section_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Blockquote_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Break_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Dd_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Div_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Dl_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Dt_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".FigCaption_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Figure_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Hr_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Li_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Main_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Ol_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".P_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Pre_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Ul_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".A_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Abbr_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".B_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Bdi_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Bdo_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Cite_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Code_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Del_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Dfn_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Em_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".I_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Ins_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Kbd_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Mark_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Q_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Rp_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Rt_Activity"
+            android:label="HTML TAGS">
+        </activity>
     </application>
 
 </manifest>
