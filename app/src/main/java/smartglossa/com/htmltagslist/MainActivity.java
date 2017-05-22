@@ -61,6 +61,65 @@ public class MainActivity extends AppCompatActivity {
         Button q=(Button)findViewById(R.id.qbutt);
         Button rp=(Button)findViewById(R.id.rpbutt);
         Button rt=(Button)findViewById(R.id.rtbutt);
+        Button ruby=(Button)findViewById(R.id.rubybutt);
+        Button s=(Button)findViewById(R.id.sbutt);
+        Button samp=(Button)findViewById(R.id.sampbutt);
+        Button small=(Button)findViewById(R.id.smallbutt);
+        Button span=(Button)findViewById(R.id.spanbutt);
+        Button stong=(Button)findViewById(R.id.strongbutt);
+        Button sub=(Button)findViewById(R.id.subbutt);
+        Button sup=(Button)findViewById(R.id.supbutt);
+        Button time=(Button)findViewById(R.id.timebutt);
+        Button var=(Button)findViewById(R.id.varbutt);
+        Button wbr=(Button)findViewById(R.id.wbrbutt);
+        Button caption=(Button)findViewById(R.id.captionbutt);
+        Button col=(Button)findViewById(R.id.colbutt);
+        Button colgroup=(Button)findViewById(R.id.colgroupbutt);
+        Button table=(Button)findViewById(R.id.tablebutt);
+        Button tbody=(Button)findViewById(R.id.tbodybutt);
+        Button td=(Button)findViewById(R.id.tdbutt);
+        Button tfoot=(Button)findViewById(R.id.tfootbutt);
+        Button th=(Button)findViewById(R.id.thbutt);
+        Button thead=(Button)findViewById(R.id.theadbutt);
+        Button tr=(Button)findViewById(R.id.trbutt);
+        Button button1=(Button)findViewById(R.id.buttonbutt);
+        Button data =(Button)findViewById(R.id.databutt);
+        Button datalist=(Button)findViewById(R.id.datalistbutt);
+        Button fieldlist=(Button)findViewById(R.id.fieldlistbutt);
+        Button form=(Button)findViewById(R.id.formbutt);
+        Button input=(Button)findViewById(R.id.inputbutt);
+        Button label=(Button)findViewById(R.id.lebelbutt);
+        Button legend=(Button)findViewById(R.id.legendbutt);
+        Button meter=(Button)findViewById(R.id.meterbutt);
+        Button opt=(Button)findViewById(R.id.optbutt);
+        Button option=(Button)findViewById(R.id.optionbutt);
+        Button output=(Button)findViewById(R.id.outputbutt);
+        Button progress=(Button)findViewById(R.id.progressbutt);
+        Button select=(Button)findViewById(R.id.selectbutt);
+        Button textarea=(Button)findViewById(R.id.textareabutt);
+        Button embed=(Button)findViewById(R.id.embedbutt);
+        Button iframe=(Button)findViewById(R.id.iframebutt);
+        Button img=(Button)findViewById(R.id.imgbutt);
+        Button object=(Button)findViewById(R.id.objectbutt);
+        Button param=(Button)findViewById(R.id.parambutt);
+        Button source=(Button)findViewById(R.id.sourcebutt);
+        Button area=(Button)findViewById(R.id.areabutt);
+        Button audio=(Button)findViewById(R.id.audiobutt);
+        Button map=(Button)findViewById(R.id.mapbutt);
+        Button track=(Button)findViewById(R.id.trackbutt);
+        Button video=(Button)findViewById(R.id.videobutt);
+        Button detail=(Button)findViewById(R.id.detailbutt);
+        Button dialog=(Button)findViewById(R.id.dialogbutt);
+        Button summary=(Button)findViewById(R.id.summary);
+        Button canvas=(Button)findViewById(R.id.canvasbutt);
+        Button noscript=(Button)findViewById(R.id.noscriptbutt);
+        Button script=(Button)findViewById(R.id.);
+
+
+
+
+
+
 
 
         html.setOnClickListener(new View.OnClickListener() {
