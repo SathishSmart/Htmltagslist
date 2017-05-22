@@ -12,7 +12,7 @@ public class Legand_Activity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.lagend_main);
+        setContentView(R.layout.legend_main);
     }
 
 }

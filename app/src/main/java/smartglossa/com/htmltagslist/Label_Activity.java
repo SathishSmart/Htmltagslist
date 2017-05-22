@@ -12,7 +12,7 @@ public class Label_Activity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.lable_main);
+        setContentView(R.layout.label_main);
     }
 
 }
