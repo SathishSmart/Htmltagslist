@@ -1,6 +1,7 @@
 package smartglossa.com.htmltagslist;
 
 import android.content.Intent;
+import android.support.v4.view.ActionProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -88,10 +89,10 @@ public class MainActivity extends AppCompatActivity {
         Button fieldlist=(Button)findViewById(R.id.fieldlistbutt);
         Button form=(Button)findViewById(R.id.formbutt);
         Button input=(Button)findViewById(R.id.inputbutt);
-        Button label=(Button)findViewById(R.id.lebelbutt);
+        Button label=(Button)findViewById(R.id.labelbutt);
         Button legend=(Button)findViewById(R.id.legendbutt);
         Button meter=(Button)findViewById(R.id.meterbutt);
-        Button opt=(Button)findViewById(R.id.optbutt);
+        Button opt=(Button)findViewById(R.id.outputbutt);
         Button option=(Button)findViewById(R.id.optionbutt);
         Button output=(Button)findViewById(R.id.outputbutt);
         Button progress=(Button)findViewById(R.id.progressbutt);
@@ -110,10 +111,11 @@ public class MainActivity extends AppCompatActivity {
         Button video=(Button)findViewById(R.id.videobutt);
         Button detail=(Button)findViewById(R.id.detailbutt);
         Button dialog=(Button)findViewById(R.id.dialogbutt);
-        Button summary=(Button)findViewById(R.id.summary);
+        Button menu=(Button)findViewById(R.id.menubutt);
+        Button summary=(Button)findViewById(R.id.summarybutt);
         Button canvas=(Button)findViewById(R.id.canvasbutt);
         Button noscript=(Button)findViewById(R.id.noscriptbutt);
-        Button script=(Button)findViewById(R.id.);
+        Button script=(Button)findViewById(R.id.scriptbutt);
 
 
 
@@ -468,55 +470,385 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
-        header.setOnClickListener(new View.OnClickListener() {
+        ruby.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Header_Activity.class));
+                startActivity(new Intent(MainActivity.this, Ruby_Activity.class));
             }
 
         });
-        header.setOnClickListener(new View.OnClickListener() {
+        s.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Header_Activity.class));
+                startActivity(new Intent(MainActivity.this, S_Activity.class));
             }
 
         });
-        header.setOnClickListener(new View.OnClickListener() {
+        samp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Header_Activity.class));
+                startActivity(new Intent(MainActivity.this, Samp_Activity.class));
             }
 
         });
-        header.setOnClickListener(new View.OnClickListener() {
+        small.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Header_Activity.class));
+                startActivity(new Intent(MainActivity.this, Small_Activity.class));
             }
 
         });
-        header.setOnClickListener(new View.OnClickListener() {
+        span.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Header_Activity.class));
+                startActivity(new Intent(MainActivity.this, Span_Activity.class));
             }
 
         });
-        header.setOnClickListener(new View.OnClickListener() {
+        stong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Header_Activity.class));
+                startActivity(new Intent(MainActivity.this, Stong_Activity.class));
             }
 
         });
-        header.setOnClickListener(new View.OnClickListener() {
+        sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Header_Activity.class));
+                startActivity(new Intent(MainActivity.this, Sub_Activity.class));
             }
 
         });
+        sup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Sup_Activity.class));
+            }
+
+        });
+        time.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Time_Activity.class));
+            }
+
+        });
+        var.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Var_Activity.class));
+            }
+
+        });
+        wbr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Wbr_Activity.class));
+            }
+
+        });
+        caption.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Caption_Activtiy.class));
+            }
+
+        });
+        col.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Col_Activity.class));
+            }
+
+        });
+        colgroup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Colgroup_Activity.class));
+            }
+
+        });
+        table.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Table_Activity.class));
+            }
+
+        });
+        tbody.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Tbody_Activity.class));
+            }
+
+        });
+        td.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Td_Activity.class));
+            }
+
+        });
+        tfoot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Tfoot_Activity.class));
+            }
+
+        });
+        th.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Th_Activity.class));
+            }
+
+        });
+        thead.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Thead_Activity.class));
+            }
+
+        });
+        tr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Tr_Activity.class));
+            }
+
+        });
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Button_Activity.class));
+            }
+
+        });
+        data.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Data_Activity.class));
+            }
+
+        });
+        datalist.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Datalist_Activity.class));
+            }
+
+        });
+        fieldlist.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Fileldlist_Activity.class));
+            }
+
+        });
+        form.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Form_Activity.class));
+            }
+
+        });
+        input.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Input_Activity.class));
+            }
+
+        });
+        label.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Label_Activity.class));
+            }
+
+        });
+        legend.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Legand_Activity.class));
+            }
+
+        });
+        meter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Meter_Activity.class));
+            }
+
+        });
+        opt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Optgroup_Activity.class));
+            }
+
+        });
+        option.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Option_Activity.class));
+            }
+
+        });
+        output.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Output_Activity.class));
+            }
+
+        });
+        progress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Progress_Activity.class));
+            }
+
+        });
+        select.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Select_Activity.class));
+            }
+
+        });
+        textarea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Textarea_Activity.class));
+            }
+
+        });
+        embed.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Embed_Activity.class));
+            }
+
+        });
+        iframe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Iframe_Activity.class));
+            }
+
+        });
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Img_Activity.class));
+            }
+
+        });
+        object.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Object_Activity.class));
+            }
+
+        });
+        param.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Param_Activity.class));
+            }
+
+        });
+        source.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Source_Activity.class));
+            }
+
+        });
+        area.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Area_Activity.class));
+            }
+
+        });
+        audio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Audio_Activity.class));
+            }
+
+        });
+        map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Map_Activity.class));
+            }
+
+        });
+        track.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Track_Activity.class));
+            }
+
+        });
+        video.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Video_Activity.class));
+            }
+
+        });
+        detail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Detail_Activity.class));
+            }
+
+        });
+        dialog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Dialog_Activity.class));
+            }
+
+        });
+        menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Menu_Activity.class));
+            }
+
+        });
+        summary.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Summary_Activity.class));
+            }
+
+        });
+        canvas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Canvas_main.class));
+            }
+
+        });
+        noscript.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Noscript_Activity.class));
+            }
+
+        });
+        script.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Script_Activity.class));
+            }
+
+        });
+
 
 
 
