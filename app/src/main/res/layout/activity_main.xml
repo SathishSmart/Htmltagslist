@@ -1605,20 +1605,20 @@
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
-                android:id="@+id/Timetag"
+                android:id="@+id/timetag"
                 android:layout_marginTop="30dp"/>
 
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/Timebutt"
+                android:id="@+id/timebutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
-                android:id="@+id/Timeline"
+                android:id="@+id/timeline"
                 android:layout_width="match_parent"
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
@@ -1751,7 +1751,7 @@
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/cgroupbutt"
+                android:id="@+id/colgroupbutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
@@ -1975,7 +1975,7 @@
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/Buttonbutt"
+                android:id="@+id/buttonbutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
@@ -2144,7 +2144,7 @@
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/Labelbutt"
+                android:id="@+id/labelbutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
@@ -2312,7 +2312,7 @@
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/pregressbutt"
+                android:id="@+id/progressbutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
@@ -2420,7 +2420,7 @@
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
-                android:id="@+id/Samptag"
+                android:id="@+id/iframetag"
                 android:layout_marginTop="30dp"/>
 
             <Button
@@ -2646,7 +2646,7 @@
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
-                android:id="@+id/Samptag"
+                android:id="@+id/track_tag"
                 android:layout_marginTop="30dp"/>
 
             <Button
@@ -2796,7 +2796,7 @@
             <Button
                 android:text="Click"
                 android:layout_height="40dp"
-                android:id="@+id/Summarybutt"
+                android:id="@+id/summarybutt"
                 android:textSize="10dp"
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
@@ -2865,7 +2865,36 @@
                 android:layout_marginTop="22dp"
                 android:background="@color/colorAccent"
                 android:layout_height="5dp"></TableRow>
+
+            <!-- script tag  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Script tag"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/scripttag"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:text="Click"
+                android:layout_height="40dp"
+                android:id="@+id/scriptbutt"
+                android:textSize="10dp"
+                android:layout_width="60dp"
+                android:textStyle="normal|bold|italic"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="-23dp" />
+            <TableRow
+                android:id="@+id/scriptline"
+                android:layout_width="match_parent"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorAccent"
+                android:layout_height="5dp"></TableRow>
         </LinearLayout>
+
 
 
 
