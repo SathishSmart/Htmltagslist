@@ -212,6 +212,221 @@
             android:name=".Rt_Activity"
             android:label="HTML TAGS">
         </activity>
+        <activity
+            android:name=".Ruby_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".S_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Samp_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Small_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Span_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Stong_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Sub_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Sup_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Time_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Var_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Wbr_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Caption_Activtiy"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Col_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Colgroup_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Table_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Tbody_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Td_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Tfoot_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Th_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Thead_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Tr_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Button_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Data_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Datalist_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Fileldlist_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Form_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Input_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Label_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Legand_Activity"
+            android:label="HTML TAGS">
+        </activity><activity
+        android:name=".Meter_Activity"
+        android:label="HTML TAGS">
+    </activity>
+        <activity
+            android:name=".Optgroup_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Option_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Output_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Progress_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Select_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Textarea_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Embed_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Iframe_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Img_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Object_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+        android:name=".Param_Activity"
+        android:label="HTML TAGS">
+    </activity>
+        <activity
+            android:name=".Source_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Area_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Audio_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Map_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Track_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Video_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Detail_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Dialog_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Menu_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Summary_Activity"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+            android:name=".Canvas_main"
+            android:label="HTML TAGS">
+        </activity>
+        <activity
+        android:name=".Noscript_Activity"
+        android:label="HTML TAGS">
+    </activity>
+        <activity
+            android:name=".Script_Activity"
+            android:label="HTML TAGS">
+        </activity>
     </application>
 
 </manifest>
