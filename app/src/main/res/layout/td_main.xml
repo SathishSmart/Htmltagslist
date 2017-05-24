@@ -15,21 +15,21 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/rt"
+                android:text="@string/td"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimary"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/rt_tag"
+                android:text="@string/td_tag"
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="italic|bold"
                 android:textSize="22dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/rt_tag1"
+                android:text="@string/td_tag1"
                 android:layout_marginLeft="13dp"
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="italic|bold"
@@ -39,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="18dp"
-                android:text="@string/rt_attr"
+                android:text="@string/td_attr"
                 android:layout_marginLeft="13dp"
                 android:textStyle="italic|bold"/>
             <TextView
@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="italic|bold"
-                android:text="@string/rt_tag2"
+                android:text="@string/td_tag2"
                 android:layout_marginLeft="13dp"
                 android:textSize="18dp"/>
             <TextView
@@ -55,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="italic|bold"
-                android:text="@string/rt_tag3"
+                android:text="@string/td_tag3"
                 android:layout_marginLeft="13dp"
                 android:textSize="18dp"/>
         </LinearLayout>
