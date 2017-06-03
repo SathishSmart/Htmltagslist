@@ -35,16 +35,18 @@
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
                 android:id="@+id/html"
-                android:layout_marginTop="30dp"/>
+                android:layout_marginTop="20dp"/>
+
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
                 android:id="@+id/htmlbutt"
-                android:layout_width="60dp"
-                android:textSize="10dp"
-                android:textStyle="normal|bold|italic"
+                android:text=""
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp"
+                android:background="@drawable/arrw"
+                />
+
             <TableRow
                 android:id="@+id/htmlline"
                 android:layout_width="match_parent"
@@ -64,14 +66,13 @@
                 android:id="@+id/base"
                 android:layout_marginTop="30dp"/>
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:layout_height="60dp"
                 android:id="@+id/basebutt"
-                android:layout_width="60dp"
-                android:textSize="10dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
+                android:background="@drawable/arrw"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/baseline"
                 android:layout_width="match_parent"
@@ -91,14 +92,14 @@
                 android:id="@+id/head"
                 android:layout_marginTop="30dp"/>
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+
+                android:layout_height="60dp"
                 android:id="@+id/headbutt"
-                android:layout_width="60dp"
-                android:textSize="10dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-23dp"
+                android:background="@drawable/arrw"/>
+
             <TableRow
                 android:id="@+id/headline"
                 android:layout_width="match_parent"
@@ -117,15 +118,15 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:id="@+id/area"
                 android:layout_marginTop="30dp"/>
+
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
-                android:textSize="10dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/likebutt"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/hr4"
                 android:layout_width="match_parent"
@@ -145,14 +146,13 @@
                 android:id="@+id/meta"
                 android:layout_marginTop="30dp"/>
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/metabutt"
-                android:layout_width="60dp"
-                android:textSize="10dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/metaline"
                 android:layout_width="match_parent"
@@ -171,14 +171,13 @@
                 android:id="@+id/style"
                 android:layout_marginTop="30dp"/>
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/stylebutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/hr6"
                 android:layout_width="match_parent"
@@ -197,14 +196,13 @@
                 android:id="@+id/title"
                 android:layout_marginTop="30dp"/>
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/titlebutt"
-                android:layout_width="60dp"
-                android:textSize="10dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/hr7"
                 android:layout_width="match_parent"
@@ -223,14 +221,13 @@
                 android:id="@+id/addr"
                 android:layout_marginTop="30dp"/>
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/addrbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/hr8"
                 android:layout_width="match_parent"
@@ -250,14 +247,13 @@
                 android:id="@+id/article"
                 android:layout_marginTop="30dp"/>
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/articlebutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/articleline"
                 android:layout_width="match_parent"
@@ -277,14 +273,13 @@
                 android:id="@+id/body"
                 android:layout_marginTop="30dp"/>
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/bodybutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/hr9"
                 android:layout_width="match_parent"
@@ -302,14 +297,13 @@
                 android:id="@+id/aside"
                 android:layout_marginTop="30dp"/>
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/asidebutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/hr10"
                 android:layout_width="match_parent"
@@ -330,14 +324,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/footerbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/hr11"
                 android:layout_width="match_parent"
@@ -358,14 +351,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/hsixbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/hsixline"
                 android:layout_width="match_parent"
@@ -383,14 +375,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/headerbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/headerhr"
                 android:layout_width="match_parent"
@@ -408,14 +399,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/hgroupbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/hgrouphr"
                 android:layout_width="match_parent"
@@ -436,14 +426,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/navbutts"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/navhr"
                 android:layout_width="match_parent"
@@ -464,12 +453,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/sectionbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -491,12 +478,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/blockquotebutts"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -519,14 +504,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/breakbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/breakhr"
                 android:layout_width="match_parent"
@@ -545,12 +529,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/ddbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -573,12 +555,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/divbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -601,12 +581,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/dlbutt1"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -629,12 +607,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/dtbutt2"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -656,12 +632,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/figcaptionbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -684,7 +658,7 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
+                android:background="@drawable/arrw"
                 android:layout_height="40dp"
                 android:id="@+id/figurebutt"
                 android:textSize="10dp"
@@ -712,12 +686,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/hrbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -740,12 +712,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/libutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -768,14 +738,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/mainbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/mainhr"
                 android:layout_width="match_parent"
@@ -796,14 +765,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/olbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/olline"
                 android:layout_width="match_parent"
@@ -824,14 +792,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/pbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/pline"
                 android:layout_width="match_parent"
@@ -852,14 +819,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/prebutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/preline"
                 android:layout_width="match_parent"
@@ -881,14 +847,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/ucbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/ucline"
                 android:layout_width="match_parent"
@@ -909,14 +874,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/abutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/aline"
                 android:layout_width="match_parent"
@@ -937,14 +901,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/abbrbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/abbrline"
                 android:layout_width="match_parent"
@@ -965,14 +928,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/bbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/bline"
                 android:layout_width="match_parent"
@@ -993,14 +955,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/bdibutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/bdiline"
                 android:layout_width="match_parent"
@@ -1021,14 +982,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/bdobutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/bdoline"
                 android:layout_width="match_parent"
@@ -1049,14 +1009,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/citebutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/citeline"
                 android:layout_width="match_parent"
@@ -1077,14 +1036,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/codebutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/codeline"
                 android:layout_width="match_parent"
@@ -1105,14 +1063,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/delbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/delline"
                 android:layout_width="match_parent"
@@ -1133,14 +1090,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/dfnbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/dfnline"
                 android:layout_width="match_parent"
@@ -1161,14 +1117,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/embutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/emline"
                 android:layout_width="match_parent"
@@ -1189,12 +1144,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/ibutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -1217,12 +1170,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/insbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -1245,14 +1196,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/kbdbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/kbdline"
                 android:layout_width="match_parent"
@@ -1273,14 +1223,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/markbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/markline"
                 android:layout_width="match_parent"
@@ -1301,12 +1250,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/qbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -1329,12 +1276,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/rpbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -1357,14 +1302,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/rtbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/rtline"
                 android:layout_width="match_parent"
@@ -1385,12 +1329,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/rubybutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -1413,12 +1355,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/sbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -1441,14 +1381,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/sampbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/Sampline"
                 android:layout_width="match_parent"
@@ -1469,14 +1408,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/smallbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/Smallline"
                 android:layout_width="match_parent"
@@ -1497,14 +1435,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/spanbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/Spanline"
                 android:layout_width="match_parent"
@@ -1525,12 +1462,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/strongbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -1553,14 +1488,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/subbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/Subline"
                 android:layout_width="match_parent"
@@ -1581,12 +1515,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/supbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -1609,14 +1541,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/timebutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/timeline"
                 android:layout_width="match_parent"
@@ -1637,14 +1568,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/varbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/varline"
                 android:layout_width="match_parent"
@@ -1665,14 +1595,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/wbrbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/wbrline"
                 android:layout_width="match_parent"
@@ -1693,14 +1622,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/captionbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/captionline"
                 android:layout_width="match_parent"
@@ -1721,14 +1649,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/colbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/colline"
                 android:layout_width="match_parent"
@@ -1749,14 +1676,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/colgroupbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/cgroupline"
                 android:layout_width="match_parent"
@@ -1777,14 +1703,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/tablebutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/tableline"
                 android:layout_width="match_parent"
@@ -1805,14 +1730,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/tbodybutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/tbodyline"
                 android:layout_width="match_parent"
@@ -1833,12 +1757,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/tdbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -1861,14 +1783,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/tfootbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/tfootline"
                 android:layout_width="match_parent"
@@ -1889,14 +1810,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/thbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/thline"
                 android:layout_width="match_parent"
@@ -1917,14 +1837,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/theadbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/theadline"
                 android:layout_width="match_parent"
@@ -1945,14 +1864,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/trbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/trline"
                 android:layout_width="match_parent"
@@ -1973,14 +1891,14 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/buttonbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-23dp"
+                />
+
             <TableRow
                 android:id="@+id/buttonline"
                 android:layout_width="match_parent"
@@ -2001,14 +1919,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/databutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/dataline"
                 android:layout_width="match_parent"
@@ -2029,14 +1946,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/datalistbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/datalistline"
                 android:layout_width="match_parent"
@@ -2057,14 +1973,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/fieldlistbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/fieldlistline"
                 android:layout_width="match_parent"
@@ -2085,12 +2000,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/formbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -2113,12 +2026,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/inputbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -2142,12 +2053,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/labelbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -2170,12 +2079,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/legendbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -2198,12 +2105,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/meterbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -2226,14 +2131,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/optgroupbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/optgroupline"
                 android:layout_width="match_parent"
@@ -2254,14 +2158,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/optionbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/optionline"
                 android:layout_width="match_parent"
@@ -2282,12 +2185,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/outputbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -2310,14 +2211,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/progressbutt"
-                android:textSize="10dp"
                 android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/pregressline"
                 android:layout_width="match_parent"
@@ -2338,12 +2238,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/selectbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -2367,12 +2265,11 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/textareabutt"
                 android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -2396,14 +2293,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/embedbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/embedline"
                 android:layout_width="match_parent"
@@ -2424,14 +2320,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/iframebutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/iframeline"
                 android:layout_width="match_parent"
@@ -2452,14 +2347,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/imgbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/imgline"
                 android:layout_width="match_parent"
@@ -2480,12 +2374,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/objectbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -2508,14 +2400,15 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/parambutt"
                 android:textSize="10dp"
-                android:layout_width="60dp"
+                android:layout_width="70dp"
                 android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/paramline"
                 android:layout_width="match_parent"
@@ -2536,12 +2429,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/sourcebutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -2564,12 +2455,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/areabutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -2592,14 +2481,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/audiobutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/audioline"
                 android:layout_width="match_parent"
@@ -2621,12 +2509,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/mapbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -2650,14 +2536,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/trackbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/trackline"
                 android:layout_width="match_parent"
@@ -2678,12 +2563,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/videobutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -2707,14 +2590,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/detailbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/detailline"
                 android:layout_width="match_parent"
@@ -2736,12 +2618,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/dialogbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -2765,14 +2645,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/menubutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/menuline"
                 android:layout_width="match_parent"
@@ -2794,14 +2673,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/summarybutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/Summaryline"
                 android:layout_width="match_parent"
@@ -2822,14 +2700,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/canvasbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/canvasline"
                 android:layout_width="match_parent"
@@ -2851,12 +2728,10 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/noscriptbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
             <TableRow
@@ -2879,14 +2754,13 @@
                 android:layout_marginTop="30dp"/>
 
             <Button
-                android:text="Click"
-                android:layout_height="40dp"
+                android:background="@drawable/arrw"
+                android:layout_height="60dp"
                 android:id="@+id/scriptbutt"
-                android:textSize="10dp"
-                android:layout_width="60dp"
-                android:textStyle="normal|bold|italic"
+                android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
                 android:layout_marginTop="-23dp" />
+
             <TableRow
                 android:id="@+id/scriptline"
                 android:layout_width="match_parent"
@@ -2894,8 +2768,6 @@
                 android:background="@color/colorAccent"
                 android:layout_height="5dp"></TableRow>
         </LinearLayout>
-
-
 
 
     </ScrollView>
