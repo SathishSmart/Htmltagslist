@@ -64,14 +64,15 @@
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
                 android:id="@+id/base"
-                android:layout_marginTop="30dp"/>
+                android:layout_marginTop="35dp"/>
+
             <Button
                 android:layout_height="60dp"
                 android:id="@+id/basebutt"
                 android:layout_width="70dp"
                 android:background="@drawable/arrw"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/baseline"
@@ -97,7 +98,7 @@
                 android:id="@+id/headbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp"
+                android:layout_marginTop="-40dp"
                 android:background="@drawable/arrw"/>
 
             <TableRow
@@ -125,7 +126,7 @@
                 android:id="@+id/likebutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/hr4"
@@ -151,7 +152,7 @@
                 android:id="@+id/metabutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/metaline"
@@ -176,7 +177,7 @@
                 android:id="@+id/stylebutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/hr6"
@@ -201,7 +202,7 @@
                 android:id="@+id/titlebutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/hr7"
@@ -226,7 +227,7 @@
                 android:id="@+id/addrbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/hr8"
@@ -252,7 +253,7 @@
                 android:id="@+id/articlebutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/articleline"
@@ -278,7 +279,7 @@
                 android:id="@+id/bodybutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/hr9"
@@ -302,7 +303,7 @@
                 android:id="@+id/asidebutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/hr10"
@@ -329,7 +330,7 @@
                 android:id="@+id/footerbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/hr11"
@@ -356,7 +357,7 @@
                 android:id="@+id/hsixbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/hsixline"
@@ -380,7 +381,7 @@
                 android:id="@+id/headerbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/headerhr"
@@ -404,7 +405,7 @@
                 android:id="@+id/hgroupbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/hgrouphr"
@@ -431,7 +432,7 @@
                 android:id="@+id/navbutts"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/navhr"
@@ -458,7 +459,7 @@
                 android:id="@+id/sectionbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/sectionhr"
                 android:layout_width="match_parent"
@@ -483,7 +484,7 @@
                 android:id="@+id/blockquotebutts"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/blockquotehr"
                 android:layout_width="match_parent"
@@ -509,7 +510,7 @@
                 android:id="@+id/breakbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/breakhr"
@@ -534,7 +535,7 @@
                 android:id="@+id/ddbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/ddhr"
                 android:layout_width="match_parent"
@@ -560,7 +561,7 @@
                 android:id="@+id/divbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/divhr"
                 android:layout_width="match_parent"
@@ -586,7 +587,7 @@
                 android:id="@+id/dlbutt1"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/dlhr"
                 android:layout_width="match_parent"
@@ -612,7 +613,7 @@
                 android:id="@+id/dtbutt2"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/dthr"
                 android:layout_width="match_parent"
@@ -637,7 +638,7 @@
                 android:id="@+id/figcaptionbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/figcaphr"
                 android:layout_width="match_parent"
@@ -665,7 +666,7 @@
                 android:layout_width="60dp"
                 android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/figurehr"
                 android:layout_width="match_parent"
@@ -691,7 +692,7 @@
                 android:id="@+id/hrbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/hrline"
                 android:layout_width="match_parent"
@@ -717,7 +718,7 @@
                 android:id="@+id/libutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/lihr"
                 android:layout_width="match_parent"
@@ -743,7 +744,7 @@
                 android:id="@+id/mainbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/mainhr"
@@ -770,7 +771,7 @@
                 android:id="@+id/olbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/olline"
@@ -797,7 +798,7 @@
                 android:id="@+id/pbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/pline"
@@ -824,7 +825,7 @@
                 android:id="@+id/prebutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/preline"
@@ -839,7 +840,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Main tag"
+                android:text="Uc tag"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
@@ -852,7 +853,7 @@
                 android:id="@+id/ucbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/ucline"
@@ -866,7 +867,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Main tag"
+                android:text="a tag"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
@@ -879,7 +880,7 @@
                 android:id="@+id/abutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/aline"
@@ -893,7 +894,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Main tag"
+                android:text="Abbr tag"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorPrimaryDark"
@@ -906,7 +907,7 @@
                 android:id="@+id/abbrbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/abbrline"
@@ -933,7 +934,7 @@
                 android:id="@+id/bbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/bline"
@@ -960,7 +961,7 @@
                 android:id="@+id/bdibutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/bdiline"
@@ -987,7 +988,7 @@
                 android:id="@+id/bdobutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/bdoline"
@@ -1014,7 +1015,7 @@
                 android:id="@+id/citebutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/citeline"
@@ -1041,7 +1042,7 @@
                 android:id="@+id/codebutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/codeline"
@@ -1068,7 +1069,7 @@
                 android:id="@+id/delbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/delline"
@@ -1095,7 +1096,7 @@
                 android:id="@+id/dfnbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/dfnline"
@@ -1122,7 +1123,7 @@
                 android:id="@+id/embutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/emline"
@@ -1149,7 +1150,7 @@
                 android:id="@+id/ibutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/iline"
                 android:layout_width="match_parent"
@@ -1175,7 +1176,7 @@
                 android:id="@+id/insbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/insline"
                 android:layout_width="match_parent"
@@ -1201,7 +1202,7 @@
                 android:id="@+id/kbdbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/kbdline"
@@ -1228,7 +1229,7 @@
                 android:id="@+id/markbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/markline"
@@ -1255,7 +1256,7 @@
                 android:id="@+id/qbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/qline"
                 android:layout_width="match_parent"
@@ -1281,7 +1282,7 @@
                 android:id="@+id/rpbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/rpline"
                 android:layout_width="match_parent"
@@ -1307,7 +1308,7 @@
                 android:id="@+id/rtbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/rtline"
@@ -1334,7 +1335,7 @@
                 android:id="@+id/rubybutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/rubyline"
                 android:layout_width="match_parent"
@@ -1360,7 +1361,7 @@
                 android:id="@+id/sbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/sline"
                 android:layout_width="match_parent"
@@ -1386,7 +1387,7 @@
                 android:id="@+id/sampbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/Sampline"
@@ -1413,7 +1414,7 @@
                 android:id="@+id/smallbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/Smallline"
@@ -1440,7 +1441,7 @@
                 android:id="@+id/spanbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/Spanline"
@@ -1467,7 +1468,7 @@
                 android:id="@+id/strongbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/Strongline"
                 android:layout_width="match_parent"
@@ -1493,7 +1494,7 @@
                 android:id="@+id/subbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/Subline"
@@ -1520,7 +1521,7 @@
                 android:id="@+id/supbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/Supline"
                 android:layout_width="match_parent"
@@ -1546,7 +1547,7 @@
                 android:id="@+id/timebutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/timeline"
@@ -1573,7 +1574,7 @@
                 android:id="@+id/varbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/varline"
@@ -1600,7 +1601,7 @@
                 android:id="@+id/wbrbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/wbrline"
@@ -1627,7 +1628,7 @@
                 android:id="@+id/captionbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/captionline"
@@ -1654,7 +1655,7 @@
                 android:id="@+id/colbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/colline"
@@ -1681,7 +1682,7 @@
                 android:id="@+id/colgroupbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/cgroupline"
@@ -1708,7 +1709,7 @@
                 android:id="@+id/tablebutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/tableline"
@@ -1735,7 +1736,7 @@
                 android:id="@+id/tbodybutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/tbodyline"
@@ -1762,7 +1763,7 @@
                 android:id="@+id/tdbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/tdline"
                 android:layout_width="match_parent"
@@ -1788,7 +1789,7 @@
                 android:id="@+id/tfootbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/tfootline"
@@ -1815,7 +1816,7 @@
                 android:id="@+id/thbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/thline"
@@ -1842,7 +1843,7 @@
                 android:id="@+id/theadbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/theadline"
@@ -1869,7 +1870,7 @@
                 android:id="@+id/trbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/trline"
@@ -1896,7 +1897,7 @@
                 android:id="@+id/buttonbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp"
+                android:layout_marginTop="-40dp"
                 />
 
             <TableRow
@@ -1924,7 +1925,7 @@
                 android:id="@+id/databutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/dataline"
@@ -1951,7 +1952,7 @@
                 android:id="@+id/datalistbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/datalistline"
@@ -1978,7 +1979,7 @@
                 android:id="@+id/fieldlistbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/fieldlistline"
@@ -2005,7 +2006,7 @@
                 android:id="@+id/formbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/formline"
                 android:layout_width="match_parent"
@@ -2031,7 +2032,7 @@
                 android:id="@+id/inputbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/inputline"
                 android:layout_width="match_parent"
@@ -2058,7 +2059,7 @@
                 android:id="@+id/labelbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/Labelline"
                 android:layout_width="match_parent"
@@ -2084,7 +2085,7 @@
                 android:id="@+id/legendbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/legendline"
                 android:layout_width="match_parent"
@@ -2110,7 +2111,7 @@
                 android:id="@+id/meterbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/meterline"
                 android:layout_width="match_parent"
@@ -2136,7 +2137,7 @@
                 android:id="@+id/optgroupbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/optgroupline"
@@ -2163,7 +2164,7 @@
                 android:id="@+id/optionbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/optionline"
@@ -2190,7 +2191,7 @@
                 android:id="@+id/outputbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/outputline"
                 android:layout_width="match_parent"
@@ -2216,7 +2217,7 @@
                 android:id="@+id/progressbutt"
                 android:layout_width="60dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/pregressline"
@@ -2243,7 +2244,7 @@
                 android:id="@+id/selectbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/selectline"
                 android:layout_width="match_parent"
@@ -2271,7 +2272,7 @@
                 android:textSize="10dp"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/textarealine"
                 android:layout_width="match_parent"
@@ -2298,7 +2299,7 @@
                 android:id="@+id/embedbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/embedline"
@@ -2325,7 +2326,7 @@
                 android:id="@+id/iframebutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/iframeline"
@@ -2352,7 +2353,7 @@
                 android:id="@+id/imgbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/imgline"
@@ -2379,7 +2380,7 @@
                 android:id="@+id/objectbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/objectline"
                 android:layout_width="match_parent"
@@ -2407,7 +2408,7 @@
                 android:layout_width="70dp"
                 android:textStyle="normal|bold|italic"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/paramline"
@@ -2434,7 +2435,7 @@
                 android:id="@+id/sourcebutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/sourceline"
                 android:layout_width="match_parent"
@@ -2460,7 +2461,7 @@
                 android:id="@+id/areabutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/Arealine"
                 android:layout_width="match_parent"
@@ -2486,7 +2487,7 @@
                 android:id="@+id/audiobutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/audioline"
@@ -2514,7 +2515,7 @@
                 android:id="@+id/mapbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/mapline"
                 android:layout_width="match_parent"
@@ -2541,7 +2542,7 @@
                 android:id="@+id/trackbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/trackline"
@@ -2568,7 +2569,7 @@
                 android:id="@+id/videobutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/videoline"
                 android:layout_width="match_parent"
@@ -2595,7 +2596,7 @@
                 android:id="@+id/detailbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/detailline"
@@ -2623,7 +2624,7 @@
                 android:id="@+id/dialogbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/dialogline"
                 android:layout_width="match_parent"
@@ -2650,7 +2651,7 @@
                 android:id="@+id/menubutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/menuline"
@@ -2678,7 +2679,7 @@
                 android:id="@+id/summarybutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/Summaryline"
@@ -2705,7 +2706,7 @@
                 android:id="@+id/canvasbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/canvasline"
@@ -2733,7 +2734,7 @@
                 android:id="@+id/noscriptbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
             <TableRow
                 android:id="@+id/noscriptline"
                 android:layout_width="match_parent"
@@ -2759,7 +2760,7 @@
                 android:id="@+id/scriptbutt"
                 android:layout_width="70dp"
                 android:layout_marginLeft="260dp"
-                android:layout_marginTop="-23dp" />
+                android:layout_marginTop="-40dp" />
 
             <TableRow
                 android:id="@+id/scriptline"
