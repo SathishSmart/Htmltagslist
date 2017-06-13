@@ -20,12 +20,12 @@
                 android:text="@string/data"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
-                android:textColor="@color/colorPrimary"/>
+                android:textColor="@color/font_color"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/data_tag"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/font_color"
                 android:textStyle="italic|bold"
                 android:textSize="22dp"/>
             <TextView
@@ -33,13 +33,13 @@
                 android:layout_height="wrap_content"
                 android:text="@string/data_tag1"
                 android:layout_marginLeft="13dp"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/font_color"
                 android:textStyle="italic|bold"
                 android:textSize="18dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/font_color"
                 android:textSize="18dp"
                 android:text="@string/data_attr"
                 android:layout_marginLeft="13dp"
@@ -47,7 +47,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/font_color"
                 android:textStyle="italic|bold"
                 android:text="@string/data_tag2"
                 android:layout_marginLeft="13dp"
@@ -55,7 +55,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/font_color"
                 android:textStyle="italic|bold"
                 android:text="@string/data_tag3"
                 android:layout_marginLeft="13dp"
