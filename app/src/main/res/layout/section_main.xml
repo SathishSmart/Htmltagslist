@@ -24,7 +24,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/section_tag"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/font_color"
                 android:textStyle="italic|bold"
                 android:textSize="22dp"/>
             <TextView
@@ -32,13 +32,13 @@
                 android:layout_height="wrap_content"
                 android:text="@string/section_tag1"
                 android:layout_marginLeft="13dp"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/font_color"
                 android:textStyle="italic|bold"
                 android:textSize="18dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/font_color"
                 android:textSize="18dp"
                 android:text="@string/section_attr"
                 android:layout_marginLeft="13dp"
@@ -46,7 +46,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/font_color"
                 android:textStyle="italic|bold"
                 android:text="@string/section_tag2"
                 android:layout_marginLeft="13dp"
@@ -54,7 +54,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/font_color"
                 android:textStyle="italic|bold"
                 android:text="@string/section_tag3"
                 android:layout_marginLeft="13dp"
