@@ -1763,7 +1763,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Td tag"
+            android:text="@string/main_td"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1789,7 +1789,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tfoot tag"
+            android:text="@string/main_tfoot"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1816,7 +1816,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Th tag"
+            android:text="@string/main_th"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1843,7 +1843,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Thead tag"
+            android:text="@string/main_thead"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1870,7 +1870,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tr tag"
+            android:text="@string/main_tr"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1897,7 +1897,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button tag"
+            android:text="@string/main_button"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1925,7 +1925,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Data tag"
+            android:text="@string/main_data"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1952,7 +1952,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Datalist tag"
+            android:text="@string/main_datalist"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1979,7 +1979,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="FieldList tag"
+            android:text="@string/main_fieldlist"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2006,7 +2006,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Form tag"
+            android:text="@string/main_form"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2032,7 +2032,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Input tags"
+            android:text="@string/main_input"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2059,7 +2059,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Label tag"
+            android:text="@string/main_label"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2085,7 +2085,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Legend tag"
+            android:text="@string/main_legend"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2111,7 +2111,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Meter tag"
+            android:text="@string/main_meter"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2137,7 +2137,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="OptGroup tag"
+            android:text="@string/main_optgroup"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2164,7 +2164,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Option tag"
+            android:text="@string/main_option"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2191,7 +2191,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Output tag"
+            android:text="@string/main_output"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2217,7 +2217,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pregress tag"
+            android:text="@string/main_progress"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2244,7 +2244,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Select tag"
+            android:text="@string/main_select"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2271,7 +2271,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="textarea tag"
+            android:text="@string/main_textarea"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2299,7 +2299,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Embed tag"
+            android:text="@string/main_embed"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2326,7 +2326,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Iframe tag"
+            android:text="@string/main_iframe"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2353,7 +2353,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Img tag"
+            android:text="@string/main_img"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2380,7 +2380,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Object tag"
+            android:text="@string/main_object"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2406,7 +2406,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="param tag"
+            android:text="@string/main_param"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2435,7 +2435,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Source tag"
+            android:text="@string/main_source"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2461,7 +2461,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Area tag"
+            android:text="@string/main_area"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2487,7 +2487,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Audio tag"
+            android:text="@string/main_audio"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2515,7 +2515,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Map tag"
+            android:text="@string/main_map"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2542,7 +2542,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="track tag"
+            android:text="@string/main_track"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2569,7 +2569,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="video tag"
+            android:text="@string/main_video"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2596,7 +2596,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Details tag"
+            android:text="@string/main_detail"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2624,7 +2624,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Dialog tag"
+            android:text="@string/main_dialog"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2651,7 +2651,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Menu tag"
+            android:text="@string/main_me"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
