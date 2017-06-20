@@ -37,7 +37,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Html tag"
+            android:text="@string/main_html"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -66,7 +66,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Base tag"
+            android:text="@string/main_base"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -93,7 +93,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Head tag"
+            android:text="@string/main_head"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -120,7 +120,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Link tag"
+            android:text="@string/main_link"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -147,7 +147,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Meta tag"
+            android:text="@string/main_meta"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -172,7 +172,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Style tag"
+            android:text="@string/main_style"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -197,7 +197,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Title tag"
+            android:text="@string/main_title"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -222,7 +222,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Address tag"
+            android:text="@string/main_address"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -248,7 +248,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Article tag"
+            android:text="@string/main_article"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -274,7 +274,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Body tag"
+            android:text="@string/main_body"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -298,7 +298,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Aside tag"
+            android:text="@string/main_aside"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -324,7 +324,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Footer tag"
+            android:text="@string/main_footer"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -351,7 +351,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/hsixs"
+            android:text="@string/main_hsix"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -372,10 +372,13 @@
             android:layout_marginTop="22dp"
             android:background="@color/colorAccent"
             android:layout_height="5dp"></TableRow>
+
+        <!-- header tag -->
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Header tag"
+            android:text="@string/main_header"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -396,10 +399,12 @@
             android:layout_marginTop="22dp"
             android:background="@color/colorAccent"
             android:layout_height="5dp"></TableRow>
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hgroup tag"
+            android:text="@string/main_hgroup"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -426,7 +431,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nav tag"
+            android:text="@string/main_nav"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -453,7 +458,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Section tag"
+            android:text="@string/main_section"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -467,6 +472,7 @@
             android:layout_width="70dp"
             android:layout_marginLeft="260dp"
             android:layout_marginTop="-40dp" />
+
         <TableRow
             android:id="@+id/sectionhr"
             android:layout_width="match_parent"
@@ -478,7 +484,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Blockquote tag"
+            android:text="@string/main_blockqoute"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -504,7 +510,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Break tag"
+            android:text="@string/main_br"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -529,7 +535,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="DD tag"
+            android:text="@string/main_dd"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -555,7 +561,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Div tag"
+            android:text="@string/main_div"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -581,7 +587,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Dl tag"
+            android:text="@string/main_dl"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -607,7 +613,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Dt tag"
+            android:text="@string/main_dt"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -632,7 +638,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Figcaption tag"
+            android:text="@string/main_figcaption"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -658,7 +664,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Figure tag"
+            android:text="@string/main_figure"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -686,7 +692,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hr tag"
+            android:text="@string/main_hr"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -712,7 +718,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Li tag"
+            android:text="@string/main_li"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -738,7 +744,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Main tag"
+            android:text="@string/main_main"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -765,7 +771,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ol tag"
+            android:text="@string/main_ol"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -792,7 +798,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="P tag"
+            android:text="@string/main_p"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -819,7 +825,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pre tag"
+            android:text="@string/main_pre"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -842,12 +848,12 @@
             android:layout_height="5dp"></TableRow>
 
 
-        <!-- uc tag  -->
+        <!-- ul tag  -->
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Uc tag"
+            android:text="@string/main_ul"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -874,7 +880,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="a tag"
+            android:text="@string/main_a"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -901,7 +907,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Abbr tag"
+            android:text="@string/main_abbr"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -928,7 +934,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="B tag"
+            android:text="@string/main_b"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -950,12 +956,12 @@
             android:background="@color/colorAccent"
             android:layout_height="5dp"></TableRow>
 
-        <!-- bdi tag  -->
+        <!-- bdl tag  -->
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="bdi tag"
+            android:text="@string/main_bdl"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -982,7 +988,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bdo tag"
+            android:text="@string/main_bdo"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1009,7 +1015,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cite tag"
+            android:text="@string/main_cite"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1036,7 +1042,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Code tag"
+            android:text="@string/main_code"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1063,7 +1069,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Del tag"
+            android:text="@string/main_del"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1090,7 +1096,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Dfn tag"
+            android:text="@string/main_dfn"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1117,7 +1123,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Em tag"
+            android:text="@string/main_em"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1144,7 +1150,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="I tag"
+            android:text="@string/main_i"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1170,7 +1176,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ins tag"
+            android:text="@string/main_ins"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1196,7 +1202,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kbd tag"
+            android:text="@string/main_kbd"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1223,7 +1229,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mark tag"
+            android:text="@string/main_mark"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1250,7 +1256,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Q tag"
+            android:text="@string/main_q"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1276,7 +1282,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rp tag"
+            android:text="@string/main_rp"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1302,7 +1308,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rt tag"
+            android:text="@string/main_rt"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1329,7 +1335,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ruby tag"
+            android:text="@string/main_ruby"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1355,7 +1361,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="S tag"
+            android:text="@string/main_s"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1381,7 +1387,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Samp tag"
+            android:text="@string/main_samp"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1408,7 +1414,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Small tag"
+            android:text="@string/main_small"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1435,7 +1441,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Span tag"
+            android:text="@string/main_span"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1462,7 +1468,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Strong tag"
+            android:text="@string/main_strong"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1488,7 +1494,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sub tag"
+            android:text="@string/main_sub"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1515,7 +1521,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sup tag"
+            android:text="@string/main_sup"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1541,7 +1547,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Time tag"
+            android:text="@string/main_time"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1568,7 +1574,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Var tag"
+            android:text="@string/main_var"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1595,7 +1601,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Wbr tag"
+            android:text="@string/main_wbr"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1622,7 +1628,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Captiontag"
+            android:text="@string/main_caption"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1649,7 +1655,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Col tag"
+            android:text="@string/main_col"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1676,7 +1682,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ColGroup tag"
+            android:text="@string/main_colgroup"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1703,7 +1709,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Table tag"
+            android:text="@string/main_table"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -1730,7 +1736,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tbody tag"
+            android:text="@string/main_tbody"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
