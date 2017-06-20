@@ -2651,7 +2651,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/main_me"
+            android:text="@string/main_menu"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2679,7 +2679,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Summary tag"
+            android:text="@string/main_summary"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2706,7 +2706,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Canvas tag"
+            android:text="@string/main_canvas"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2734,7 +2734,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="NoScript tag"
+            android:text="@string/main_noscript"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
@@ -2760,7 +2760,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Script tag"
+            android:text="@string/main_script"
             android:textStyle="italic|bold"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"
