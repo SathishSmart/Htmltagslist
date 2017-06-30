@@ -12,19 +12,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="@drawable/sw">
+            android:background="@color/new_color1">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/div"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
-                android:textColor="@color/font_color"/>
+                android:textColor="@color/background_color"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/div_tag"
-                android:textColor="@color/font_color"
+                android:textColor="@color/background_color"
                 android:textStyle="italic|bold"
                 android:textSize="22dp"/>
             <TextView
@@ -32,13 +32,13 @@
                 android:layout_height="wrap_content"
                 android:text="@string/div_tag1"
                 android:layout_marginLeft="13dp"
-                android:textColor="@color/font_color"
+                android:textColor="@color/background_color"
                 android:textStyle="italic|bold"
                 android:textSize="18dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/font_color"
+                android:textColor="@color/background_color"
                 android:textSize="18dp"
                 android:text="@string/div_attr"
                 android:layout_marginLeft="13dp"
@@ -46,7 +46,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/font_color"
+                android:textColor="@color/background_color"
                 android:textStyle="italic|bold"
                 android:text="@string/div_tag2"
                 android:layout_marginLeft="13dp"
@@ -54,7 +54,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/font_color"
+                android:textColor="@color/background_color"
                 android:textStyle="italic|bold"
                 android:text="@string/div_tag3"
                 android:layout_marginLeft="13dp"
