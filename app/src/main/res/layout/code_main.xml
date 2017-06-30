@@ -19,7 +19,7 @@
                 android:text="@string/code"
                 android:textStyle="italic|bold"
                 android:textSize="20dp"
-                android:textColor="@color/font_color"/>
+                android:textColor="@color/colorPrimaryDark"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
